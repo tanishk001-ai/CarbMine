@@ -1,32 +1,22 @@
-# CarbMine
+## CarbMine
 
-**CarbMine** is a comprehensive web application designed to help the Indian coal industry address climate change challenges. It empowers coal mine operators to make informed decisions by quantifying carbon footprints and offering pathways to achieve carbon neutrality. The tool features emission estimation, carbon neutrality simulations, data visualization, carbon credit calculations, and allows users to generate and store PDF reports of their analysis.
+CarbMine is a carbon footprint assessment system designed for the coal mining sector. It quantifies emissions, visualizes environmental impact, and helps industries move toward sustainability goals. The tool supports emission estimation, analytics, dashboards, and automated report generation.
 
-## Demo Video
-
-Here is the working demo of CarbMine:
-
-[Demo Video](https://youtu.be/T19DcbGDWgY?feature=shared)
 
 ## Features
+- **Emission Estimation:** Calculate Scope 1, Scope 2, and Scope 3 emissions.
+- **Data Upload:** Accept CSV/Excel files and auto-validate entries.
+- **Dashboards:** Visualize source-wise emissions, charts, and historical trends.
+- **Report Generation:** Export structured PDF sustainability reports.
+- **Modular Architecture:** Frontend, backend, and calculation engine separated for easy updates.
 
-- **Emission Estimation:** Calculate the carbon footprint of coal mining operations.
-- **Carbon Neutrality Simulations:** Explore different strategies to achieve carbon neutrality.
-- **Data Visualization:** Visualize emission data and simulations through interactive charts and graphs.
-- **Carbon Credit Calculations:** Calculate potential carbon credits based on emissions and mitigation strategies.
-- **PDF Reports:** Generate and store PDF reports of your analysis for future reference.
-- **Past Insights:** View historical insights and analyses for ongoing tracking and evaluation.
+## System Architecture
 
-## Tech Stack
-
-### Frontend
-- **React:** A popular JavaScript library for building dynamic and interactive user interfaces.
-- **Tailwind CSS:** A utility-first CSS framework for designing responsive and visually appealing interfaces.
-- **GSAP:** A powerful library for creating high-performance animations and transitions in the frontend.
-
-### Backend
-- **Python (Flask):** A lightweight WSGI web application framework for building the backend services.
-- **Firebase:** A platform by Google that provides cloud-based services including authentication and real-time databases.
+**CarbMine follows a modular structure:**
+- **Frontend:** React interface for inputs and dashboards
+- **Backend:** Flask/Node APIs for calculations
+- **Calculation Engine:** Scientific emission factor mapping
+- **Database:** CSV/JSON/MongoDB depending on implementation
 
 ## Installation
 
@@ -42,7 +32,7 @@ To run the Coal Carbon Footprint Tool locally, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/Geethika-Kancharla/CarbMine
+    git clone https://github.com/tanishk001-ai/CarbMine
     ```
 
 2. **Navigate to the `frontend` directory:**
@@ -99,15 +89,26 @@ To run the Coal Carbon Footprint Tool locally, follow these steps:
 
     The application should now be running locally at [http://localhost:3000](http://localhost:3000).
 
-## Usage
+## Use Cases
 
-- **Estimate Emissions:** Input your data to calculate carbon emissions from coal mining activities.
-- **Simulate Carbon Neutrality:** Experiment with different scenarios to see how to achieve carbon neutrality.
-- **Generate Reports:** Create PDF reports of your analyses and store them for future reference.
-- **View Past Insights:** Access historical data and previous analyses to track progress over time.
+- **Mining Companies:** Track and report emissions
+- **Government Bodies:** Monitor compliance and environmental standards
+- **Research Institutes:** Analyze emission trends
+- **ESG Teams:** Generate Scope 1–3 emission reports
+
+## Future Roadmap
+
+- AI-based emission forecasting
+- IoT sensor integration
+- Satellite-based emission tracking
+- Multi-fuel support (natural gas, petroleum)
+- Blockchain-based reporting
+
+## Contributors
+
+[Tanishk Tiwari](https://github.com/tanishk001-ai)
 
 ## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 
