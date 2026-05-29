@@ -1,0 +1,31 @@
+# ─── Web Framework ──────────────────────────────────────────────
+Flask==3.0.3
+flask-cors==4.0.1
+
+# ─── Data Processing ────────────────────────────────────────────
+pandas==2.2.2
+numpy==1.26.4
+openpyxl==3.1.3        # Excel file support (.xlsx)
+xlrd==2.0.1            # Legacy Excel (.xls)
+
+# ─── Visualization / Charts ─────────────────────────────────────
+matplotlib==3.9.0
+plotly==5.22.0
+
+# ─── PDF Report Generation ──────────────────────────────────────
+reportlab==4.2.0
+fpdf2==2.7.9
+
+# ─── Firebase Admin SDK (Database) ──────────────────────────────
+firebase-admin==6.5.0
+
+# ─── MongoDB (optional, if used instead of Firebase) ────────────
+pymongo==4.7.3
+
+# ─── Emission Factor Utilities ──────────────────────────────────
+pint==0.24              # Unit conversion (tonnes CO2e, kg, etc.)
+
+# ─── Utilities ──────────────────────────────────────────────────
+python-dotenv==1.0.1   # Load .env variables
+requests==2.32.3
+gunicorn==22.0.0       # Production WSGI server
